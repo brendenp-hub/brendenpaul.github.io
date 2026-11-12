@@ -1,1 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"><rect width="1280" height="720" fill="#397fe5"/><circle cx="650" cy="350" r="220" fill="none" stroke="#f5efc9" stroke-width="12"/><ellipse cx="650" cy="350" rx="95" ry="220" fill="none" stroke="#f5efc9" stroke-width="10"/><path d="M430 350h440M455 250h390M455 450h390M650 130v440" stroke="#f5efc9" stroke-width="10" fill="none"/><text x="70" y="110" fill="#f5efc9" font-family="Arial" font-size="46" font-weight="bold">BP / VISUAL DIARY</text><text x="70" y="650" fill="#f5efc9" font-family="Arial" font-size="28" font-weight="bold">ADD YOUR INTRODUCTION VIDEO</text></svg>
+
+<!-- SVG graphic for the video preview -->
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1280 720">
+
+  <!-- Background colour -->
+  <rect
+    width="1280"
+    height="720"
+    fill="#397fe5"
+  />
+
+
+  <!-- Main globe outline -->
+  <circle
+    cx="650"
+    cy="350"
+    r="220"
+    fill="none"
+    stroke="#f5efc9"
+    stroke-width="12"
+  />
+
+
+  <!-- Vertical globe line -->
+  <ellipse
+    cx="650"
+    cy="350"
+    rx="95"
+    ry="220"
+    fill="none"
+    stroke="#f5efc9"
+    stroke-width="10"
+  />
+
+
+  <!-- Horizontal and vertical globe lines -->
+  <path
+    d="M430 350h440
+       M455 250h390
+       M455 450h390
+       M650 130v440"
+    stroke="#f5efc9"
+    stroke-width="10"
+    fill="none"
+  />
+
+
+  <!-- Top left title -->
+  <text
+    x="70"
+    y="110"
+    fill="#f5efc9"
+    font-family="Arial"
+    font-size="46"
+    font-weight="bold"
+  >
+    BP / VISUAL DIARY
+  </text>
+
+
+  <!-- Bottom instruction -->
+  <text
+    x="70"
+    y="650"
+    fill="#f5efc9"
+    font-family="Arial"
+    font-size="28"
+    font-weight="bold"
+  >
+    ADD YOUR INTRODUCTION VIDEO
+  </text>
+
+</svg>
