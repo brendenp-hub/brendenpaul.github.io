@@ -1,30 +1,238 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Makes the website responsive on phones and tablets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- EDIT HERE: Website description for search engines -->
   <meta name="description" content="Brenden Paul's multimedia technology portfolio.">
-  <title>Brenden Paul — Creative Portfolio</title><link rel="stylesheet" href="css/style.css">
+
+  <!-- EDIT HERE: Text displayed on the browser tab -->
+  <title>Brenden Paul — Creative Portfolio</title>
+
+  <!-- Connect the external CSS design file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Connect JavaScript; defer waits until HTML is parsed -->
   <script defer src="js/main.js"></script>
 </head>
+
 <body>
-<header class="site-header"><a class="wordmark" href="index.html">BP<span>®</span></a>
-<button class="menu-toggle" aria-label="Toggle navigation">☰</button>
-<nav class="nav"><a class="active" href="index.html">Home</a><a href="biodata.html">Biodata</a><a href="portfolio.html">Portfolio</a><a href="video.html">Video</a><a href="comments.html">Comments</a></nav>
+
+<!-- ========================================
+     HEADER AND NAVIGATION
+     Appears at the top of every webpage
+======================================== -->
+
+<header class="site-header">
+
+  <!-- EDIT HERE: BP is your website logo -->
+  <a class="wordmark" href="index.html">Brenden's work<span>®</span></a>
+
+  <!-- Mobile navigation button -->
+  <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+
+  <!-- Navigation links: change href to change destination -->
+  <nav class="nav">
+
+    <a class="active" href="index.html">Home</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="video.html">Video</a>
+    <a href="comments.html">Comments</a>
+
+  </nav>
+
 </header>
+
+
 <main>
+
+<!-- ========================================
+     HERO SECTION
+     Main homepage introduction
+======================================== -->
+
 <section class="hero">
-  <div class="hero-copy"><p class="eyebrow">MULTIMEDIA TECHNOLOGY · UMSKAL</p>
-  <h1>MAKE<br><span>IT</span> MOVE<span class="star">✳</span></h1>
-  <p class="intro">A creative space for experiments, digital experiences and ideas in motion.</p>
-  <a class="button" href="portfolio.html">Explore my work <b>↗</b></a>
+
+  <div class="hero-copy">
+
+    <!-- EDIT HERE: Small text above the main heading -->
+    <p class="eyebrow">
+      INFORMATION TECHNOLOGY IN MULTIMEDIA TECHNOLOGY · UMSKAL
+    </p>
+
+    <!-- EDIT HERE: Main homepage heading -->
+    <h1>
+      CREATIVE<br>
+      <span>IT</span> WORK<span class="star">✳</span>
+    </h1>
+
+    <!-- EDIT HERE: Short personal introduction -->
+    <p class="intro">
+      Multimedia works done by <strong style="color: black;">BRENDEN PAUL</strong>
+    </p>
+
+    <!-- Button linking to the portfolio page -->
+    <a class="button" href="portfolio.html">
+      Explore my work <b>↗</b>
+    </a>
+
   </div>
-  <div class="hero-art" aria-label="Abstract retro globe artwork"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="globe"><i></i><i></i><i></i><i></i><i></i></div><span class="art-stamp">CREATIVE<br>DEPT. / 026</span><span class="side-note">DESIGN · CODE · PLAY</span></div>
-  <div class="hero-index">PORTFOLIO NO. 001 <span>LABUAN, MALAYSIA</span></div>
+
+
+  <!-- Decorative globe illustration made with CSS -->
+  <div class="hero-art" aria-label="Abstract retro globe artwork">
+
+    <!-- Decorative orbit lines -->
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+
+    <!-- Globe illustration -->
+    <div class="globe">
+
+      <!-- Horizontal and vertical globe lines -->
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+
+    </div>
+
+    <!-- Small decorative label -->
+    <span class="art-stamp">
+      HC12<br>
+      CLASS 24'
+    </span>
+
+    <!-- Vertical decorative text -->
+    <span class="side-note">
+      | DESIGNING · CODING |
+    </span>
+
+  </div>
+
+
+  <!-- Small information at the bottom of the hero section -->
+  <div class="hero-index">
+
+    <!-- EDIT HERE: Portfolio number -->
+    PORTFOLIO NO. 001
+
+    <!-- EDIT HERE: Your location -->
+    <span>LABUAN, MALAYSIA</span>
+
+  </div>
+
 </section>
-<section class="ticker"><div>DESIGN YOUR IDEAS ✳ BUILD YOUR WORLD ✳ KEEP EXPERIMENTING ✳&nbsp;</div></section>
-<section class="intro-grid section-pad"><div><p class="eyebrow">01 / INTRODUCTION</p><h2>Curious by<br>design.</h2></div><div><p class="large-copy">Hi, I'm <strong>Brenden Paul</strong>, a Multimedia Technology student at Universiti Malaysia Sabah, Labuan International Campus.</p><p>I enjoy exploring the intersection of design, technology and storytelling — especially through 3D environments, game development and interactive media.</p><a class="text-link" href="biodata.html">More about me ↗</a></div></section>
-<section class="feature-band"><div class="feature-label">CURRENT INTEREST</div><div><p class="eyebrow">A WORLD BUILT FROM CLUES</p><h2>LOW-POLY<br>WORLDS<span class="blue-dot">.</span></h2><p>Exploration, environmental storytelling and atmospheric game experiences.</p></div><div class="feature-number">03<br><small>DIMENSIONS</small></div></section>
-<section class="section-pad home-bottom"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>LET'S MAKE<br>SOMETHING.</h2><a class="button button-dark" href="comments.html">Leave a message ↗</a></section>
-</main>
-<footer><a class="wordmark" href="index.html">BP<span>®</span></a><p>© 2026 BRENDEN PAUL · PERSONAL PORTFOLIO</p><a href="comments.html">GET IN TOUCH ↗</a></footer>
-</body></html>
+
+
+<!-- ========================================
+     MOVING TEXT / TICKER
+     Animation controlled by CSS
+======================================== -->
+
+
+<!-- =================================
+     INFINITE SEAMLESS TICKER
+================================= -->
+
+<section class="ticker">
+
+  <div class="ticker-track">
+
+    <!-- FIRST GROUP -->
+    <div class="ticker-content">
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+    </div>
+
+    <!-- EXACT DUPLICATE -->
+    <div class="ticker-content" aria-hidden="true">
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+      <span>BUILDING YOUR WORLD ✳</span>
+      <span>KEEP EXPERIMENTING ✳</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PERSONAL INTRODUCTION
+======================================== -->
+
+<section class="intro-grid section-pad">
+
+  <div>
+
+    <p class="eyebrow">01 / INTRODUCTION</p>
+
+    <!-- EDIT HERE: Introduction heading -->
+    <h2>Curious by<br>design.</h2>
+
+  </div>
+
+
+  <div>
+
+    <!-- EDIT HERE: Change your name and introduction -->
+    <p class="large-copy">
+      Hi, I'm <strong>Brenden Paul</strong>, a Multimedia Technology student at Universiti Malaysia Sabah, Kampus Antarabangsa Labuan.
+    </p>
+
+    <!-- EDIT HERE: Describe your personal interests -->
+    <p>
+      This website is my prove for my past works on my relating course and any multimedia related works.
+    </p>
+
+    <!-- Link to your biodata -->
+    <a class="text-link" href="biodata.html">
+      More about me ↗
+    </a>
+
+  </div>
+
+</section>
+
+<!--here maybe-->
+
+<!-- ========================================
+     FOOTER
+     Appears at the bottom of the page
+======================================== -->
+
+<footer>
+
+  <!-- Footer logo -->
+  <a class="wordmark" href="index.html">Brenden's work<span>®</span></a>
+
+  <!-- EDIT HERE: Copyright information -->
+  <p>© 2026 BRENDEN PAUL · PERSONAL PORTFOLIO</p>
+
+  <!-- Contact page link -->
+  <a href="comments.html">Give Feedback ↗</a>
+
+</footer>
+
+</body>
+</html>
